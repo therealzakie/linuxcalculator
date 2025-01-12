@@ -1,4 +1,4 @@
-#run using 'python3 linuxcalculator.py' or 'python linuxcalculator.py'
+#run using 'python3 linuxcalculator-1.0.py' or 'python linuxcalculator-1.0.py'
 
 print("   _   _   _   _   _     _   _   _   _   _   _   _   _   _   _  ")
 print("  / \\ / \\ / \\ / \\ / \\   / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ ")
