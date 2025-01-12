@@ -4,3 +4,5 @@ This is only built as a calculator for platforms like Debian that have a complic
 This is made for people that don't want to read some documentaion for 2 hours (I have personal experience) and make calculation in platforms like Debian simpliler.
 I'm not expecting this to get popular because it's very simple.
 Anyways, thanks for using my little program :D
+## How much does this cost?
+This software is free and does not cost any amount of money or your families' lifes!
