@@ -6,7 +6,7 @@ print(" ( L | i | n | u | x ) ( C | a | l | c | u | l | a | t | o | r )")
 print("  \\_/ \\_/ \\_/ \\_/ \\_/   \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ ")
 
 from tkinter import *
-
+version = 1.0
 expression = ""
 
 def enter(number):
