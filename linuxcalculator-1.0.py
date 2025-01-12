@@ -1,4 +1,4 @@
-#run using 'python3 linuxcalculator-1.0.py' or 'python linuxcalculator-1.0.py'
+#run using 'python3 linuxcalculator.py' or 'python linuxcalculator.py'
 
 print("   _   _   _   _   _     _   _   _   _   _   _   _   _   _   _  ")
 print("  / \\ / \\ / \\ / \\ / \\   / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ / \\ ")
@@ -6,6 +6,7 @@ print(" ( L | i | n | u | x ) ( C | a | l | c | u | l | a | t | o | r )")
 print("  \\_/ \\_/ \\_/ \\_/ \\_/   \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ ")
 
 from tkinter import *
+from tkinter import messagebox
 version = 1.0
 expression = ""
 print(version)
@@ -27,11 +28,14 @@ def clear():
     expression = ""
     equation.set("")
 if __name__ == "__main__":
+    layoutSelect = True
     root = Tk()
     root.configure(background = "light grey")
     root.title("Linux Calculator")
-    root.geometry("340x190")
+    root.geometry("360x230")
+    messagebox.showwarning(title = "WARNING", message = "BETA VERSION!! BUGS CAN OCCOR!")
     equation = StringVar()
+    Label(root, text = "Linux Calculator", bg = "light grey").grid(row = 0, column = 0)
     expressionField = Entry(root, textvariable = equation)
     expressionField.grid(row=1, columnspan = 4, ipadx = 70)
     button1 = Button(root, text = " 1 ", fg = "black", bg = "white", command = lambda: enter(1), height = 1, width = 7)
