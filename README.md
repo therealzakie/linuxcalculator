@@ -1,5 +1,5 @@
 # How to use
-Just download linuxcalculator-1.0.py then run using 'python3 linuxcalculator-1.0.py' or 'python linuxcalculator-1.0.py'.
+Just download linuxcalculator-latest.py then run using 'python3 linuxcalculator-latest.py' or 'python linuxcalculator-latest.py'.
 # Questions so you don't have to type
 ## Why does this exist??
 This is only built as a calculator for platforms like Debian that have a complicated calculating system.
