@@ -8,7 +8,7 @@ print("  \\_/ \\_/ \\_/ \\_/ \\_/   \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/ \\_/
 from tkinter import *
 version = 1.0
 expression = ""
-
+print(version)
 def enter(number):
     global expression
     expression = expression + str(number)
